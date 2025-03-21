@@ -23,7 +23,7 @@ $result = $con->query($sql);
 if ($result) {
     // If the query was successful, output a JavaScript alert and redirect to 1register.php
     echo "<script>
-            alert('Record successfully added');
+            alert('Your message successfully received');
             window.location.href = 'test.php';
           </script>";
          
