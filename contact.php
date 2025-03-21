@@ -6,7 +6,7 @@
     <title>Contact Us</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f0f0; }
-        .header { background: #1e3a8a; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        .header { background: url('https://i.pinimg.com/736x/42/c6/61/42c661dbdd3b302c19344be474615550.jpg') no-repeat center center/cover; color: white; padding: 40px; text-align: center; font-size: 24px; }
         .look { background: white; padding: 20px; text-align: center; font-size: 18px; }
         .look a { margin: 0 15px; text-decoration: none; color: #1e3a8a; font-weight: bold; }
         .look a:hover { color: red; }
@@ -22,10 +22,10 @@
     <div class="header">
         <h1>Contact Us</h1>
         <nav class="look">
-        <a href="index.php">Home</a>
-        <a href="about.php">About</a>
+        <a href="test.php">Home</a>
         <a href="technologies.php">Technologies</a>
         <a href="Achievements.php">Achievements</a>
+        <a href="about.php">About</a>
         <a href="contact.php">Contact</a>
     </nav>
     </div>

@@ -6,7 +6,7 @@
     <title>Technology Home</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f0f0; }
-        .header { background: #1e3a8a; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        .header { background: url('https://i.pinimg.com/474x/62/83/c2/6283c249c9ccac3466cff299e188289c.jpg') no-repeat center center/cover; color: white; padding: 40px; text-align: center; font-size: 24px; }
         .content { padding: 40px; text-align: center; }
         .contents { padding: 40px; text-align: center; }
         .auth-section { display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 20px; }
@@ -31,10 +31,10 @@
         <h1>Welcome to Our Technology Hub</h1>
         <nav class="look">
             <b>
-        <a href="index.php">Home</a>
-        <a href="about.php">About</a>
+        <a href="test.php">Home</a>
         <a href="technologies.php">Technologies</a>
         <a href="Achievements.php">Achievements</a>
+        <a href="about.php">About</a>
         <a href="contact.php">Contact</a>
 </b>
     </nav>
