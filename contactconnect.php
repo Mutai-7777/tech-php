@@ -1,12 +1,11 @@
 <?php
+// Retrieve POST data from the form submission
+$NAME = $_POST['NAME'];
+$EMAIL = $_POST['EMAIL'];
+$MESSAGE=$_POST['MESSAGE'];
 
-$USERNAME= $_POST["USERNAME"];
-$EMAIL= $_POST["EMAIL"];
-$PASSWORD= $_POST["PASSWORD"];
-
-
-//CREATE CONNECTION
-$con= new mysqli ("localhost", "root","", "CONTACT");
+// Create a new MySQLi connection to the database
+$con = new mysqli("localhost", "root", "", "CONTACT");
 
 // Check if the connection to the database was successful
 if ($con->connect_error) {
@@ -14,10 +13,8 @@ if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
 }
 
-//sql query inserts
-    $sql = "INSERT INTO users (username, email, password)
-    VALUES ('$USERNAME', '$EMAIL', '$PASSWORD')";
-
+// Prepare the SQL query to insert the data into the RESP table
+$sql = "INSERT INTO RESP (NAME, EMAIL, MESSAGE) VALUES ('$NAME', '$EMAIL', '$MESSAGE')";
 
 // Execute the SQL query
 $result = $con->query($sql);
@@ -38,6 +35,4 @@ if ($result) {
 
 // Close the database connection
 $con->close();
-?>
-
 ?>

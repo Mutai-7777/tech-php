@@ -47,23 +47,23 @@
                 <img src="https://i.pinimg.com/736x/bc/a0/5a/bca05a91e1d44035cd89deb2bccbe4a3.jpg" alt="Register Icon">
                 <h3>Create an Account</h3>
                 <p>Register to access exclusive content and join discussions.</p>
-                <form action="register.php" method="POST">
-                    <input type="text" name="username" placeholder="Username" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" name="password" placeholder="Password" required>
+                <form action="Registerconnect.php" method="POST">
+                    <input type="text" name="USERNAME" placeholder="Username" required>
+                    <input type="email" name="EMAIL" placeholder="Email" required>
+                    <input type="password" name="PASSWORD" placeholder="Password" required>
                     <button type="submit">Register</button>
                 </form>
             </div>
-            <div class="auth-container">
+            <!-- <div class="auth-container">
                 <img src="https://i.pinimg.com/474x/2c/a6/92/2ca692c4ead5cf7db8f943ee314473d4.jpg" alt="Login Icon">
                 <h3>Member Login</h3>
                 <p>Already have an account? Log in to continue.</p>
                 <form action="login.php" method="POST">
                     <input type="text" name="username" placeholder="Username" required>
                     <input type="password" name="password" placeholder="Password" required>
-                    <button type="submit">Login</button>
+                    <button type="submit" >Login</button>
                 </form>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="content">

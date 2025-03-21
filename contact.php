@@ -32,10 +32,10 @@
     <div class="container">
         <h1>Contact Us</h1>
         <p>Have questions or feedback? Reach out to us.</p>
-        <form action="submit_contact.php" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+        <form action="contactconnect.php" method="POST">
+            <input type="text" name="NAME" placeholder="Your Name" required>
+            <input type="email" name="EMAIL" placeholder="Your Email" required>
+            <textarea name="MESSAGE" placeholder="Your Message" required></textarea>
             <button type="submit">Submit</button>
         </form>
     </div>
